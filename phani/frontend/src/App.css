@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.file_name_item {
+  padding: .5rem;
+  background-color: rgba(0, 0, 0, 0.027);
+  border-radius: 5px;
+}
+
+.file_name_item:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.222);
+}
+
+.file_name_item:active {
+  background-color: rgba(0, 0, 0, 0.222);
+}
+
+.file_name_item:focus {
+  background-color: rgba(0, 0, 0, 0.222);
+}
+
+.username_list_dropdown {
+  width: 150px;
+  margin: auto;
+}
+
+.username_list_dropdown_menu {
+  background-color: rgba(0, 0, 0, 0.150);
+}
+
+.username_list_dropdown_menu-item {
+  padding: .2rem;
+  border-bottom: 1px solid black;
+}
